@@ -75,7 +75,7 @@ int main() {
     PRINT(CAM_INTF_META_FACE_LANDMARK,                pMetadata);
     PRINT(CAM_INTF_META_FACE_CONTOUR,                 pMetadata);
     PRINT(CAM_INTF_META_AUTOFOCUS_DATA,               pMetadata);
-    // PRINT(CAM_INTF_META_CDS_DATA,                     pMetadata); Not used in blob
+    PRINT(CAM_INTF_META_CDS_DATA,                     pMetadata); in blob
     PRINT(CAM_INTF_PARM_UPDATE_DEBUG_LEVEL,           pMetadata);
 
     /* Specific to HAl1 */
@@ -242,9 +242,9 @@ int main() {
     PRINT(CAM_INTF_META_TOUCH_AE_RESULT,              pMetadata);
     PRINT(CAM_INTF_PARM_LED_CALIBRATION,              pMetadata);
     PRINT(CAM_INTF_PARM_ADV_CAPTURE_MODE,             pMetadata);
-    // PRINT(CAM_INTF_PARM_QUADRA_CFA,                   pMetadata); Not used
-    // PRINT(CAM_INTF_META_RAW,                          pMetadata); Not used
-    // PRINT(CAM_INTF_META_STREAM_INFO_FOR_PIC_RES,      pMetadata); Not used
+    PRINT(CAM_INTF_PARM_QUADRA_CFA,                   pMetadata);
+    PRINT(CAM_INTF_META_RAW,                          pMetadata);
+    PRINT(CAM_INTF_META_STREAM_INFO_FOR_PIC_RES,      pMetadata);
 
 
     /* HAL3 specific */
@@ -280,25 +280,25 @@ int main() {
     PRINT(CAM_INTF_PARM_CAC,                          pMetadata);
     PRINT(CAM_INTF_META_NEUTRAL_COL_POINT,            pMetadata);
     PRINT(CAM_INTF_PARM_ROTATION,                     pMetadata);
-    // PRINT(CAM_INTF_PARM_HW_DATA_OVERWRITE,            pMetadata); Not used
+    PRINT(CAM_INTF_PARM_HW_DATA_OVERWRITE,            pMetadata);
     PRINT(CAM_INTF_META_IMGLIB,                       pMetadata);
     PRINT(CAM_INTF_PARM_CAPTURE_FRAME_CONFIG,         pMetadata);
     PRINT(CAM_INTF_PARM_CUSTOM,                       pMetadata);
     PRINT(CAM_INTF_PARM_FLIP,                         pMetadata);
     PRINT(CAM_INTF_META_USE_AV_TIMER,                 pMetadata);
-    // PRINT(CAM_INTF_META_EFFECTIVE_EXPOSURE_FACTOR,    pMetadata); Not used
-    // PRINT(CAM_INTF_META_LDAF_EXIF,                    pMetadata); Not used
-    // PRINT(CAM_INTF_META_BLACK_LEVEL_SOURCE_PATTERN,   pMetadata); Not used
-    // PRINT(CAM_INTF_META_BLACK_LEVEL_APPLIED_PATTERN,  pMetadata); Not used
+    PRINT(CAM_INTF_META_EFFECTIVE_EXPOSURE_FACTOR,    pMetadata);
+    PRINT(CAM_INTF_META_LDAF_EXIF,                    pMetadata);
+    PRINT(CAM_INTF_META_BLACK_LEVEL_SOURCE_PATTERN,   pMetadata);
+    PRINT(CAM_INTF_META_BLACK_LEVEL_APPLIED_PATTERN,  pMetadata);
     PRINT(CAM_INTF_META_LOW_LIGHT,                    pMetadata);
     PRINT(CAM_INTF_META_IMG_DYN_FEAT,                 pMetadata);
-    // PRINT(CAM_INTF_PARM_MANUAL_CAPTURE_TYPE,          pMetadata); Not used
+    PRINT(CAM_INTF_PARM_MANUAL_CAPTURE_TYPE,          pMetadata);
     PRINT(CAM_INTF_AF_STATE_TRANSITION,               pMetadata);
     PRINT(CAM_INTF_PARM_INITIAL_EXPOSURE_INDEX,       pMetadata);
     PRINT(CAM_INTF_PARM_INSTANT_AEC,                  pMetadata);
-    // PRINT(CAM_INTF_META_REPROCESS_FLAGS,              pMetadata); Not used
-    // PRINT(CAM_INTF_PARM_JPEG_ENCODE_CROP,             pMetadata); Not used
-    // PRINT(CAM_INTF_PARM_JPEG_SCALE_DIMENSION,         pMetadata); Not used
+    PRINT(CAM_INTF_META_REPROCESS_FLAGS,              pMetadata);
+    PRINT(CAM_INTF_PARM_JPEG_ENCODE_CROP,             pMetadata);
+    PRINT(CAM_INTF_PARM_JPEG_SCALE_DIMENSION,         pMetadata);
     PRINT(CAM_INTF_META_FOCUS_DEPTH_INFO,             pMetadata);
     PRINT(TINNO1,                                     pMetadata);
     PRINT(CAM_INTF_PARM_HAL_BRACKETING_HDR,           pMetadata);
