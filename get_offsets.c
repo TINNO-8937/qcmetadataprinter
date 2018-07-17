@@ -75,7 +75,7 @@ int main() {
     PRINT(CAM_INTF_META_FACE_LANDMARK,                pMetadata);
     PRINT(CAM_INTF_META_FACE_CONTOUR,                 pMetadata);
     PRINT(CAM_INTF_META_AUTOFOCUS_DATA,               pMetadata);
-    PRINT(CAM_INTF_META_CDS_DATA,                     pMetadata); in blob
+    PRINT(CAM_INTF_META_CDS_DATA,                     pMetadata);
     PRINT(CAM_INTF_PARM_UPDATE_DEBUG_LEVEL,           pMetadata);
 
     /* Specific to HAl1 */
