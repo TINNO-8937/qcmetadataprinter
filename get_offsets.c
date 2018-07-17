@@ -66,6 +66,7 @@ int main() {
     /* INCLUDE() macros from metadata_data_t go after this */
 
     /* common between HAL1 and HAL3 */
+    PRINT(TINNO1,                                     pMetadata);
     PRINT(CAM_INTF_META_HISTOGRAM,                    pMetadata);
     PRINT(CAM_INTF_META_FACE_DETECTION,               pMetadata);
     PRINT(CAM_INTF_META_FACE_RECOG,                   pMetadata);
