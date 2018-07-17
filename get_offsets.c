@@ -301,6 +301,7 @@ int main() {
     // PRINT(CAM_INTF_PARM_JPEG_ENCODE_CROP,             pMetadata); Not used
     // PRINT(CAM_INTF_PARM_JPEG_SCALE_DIMENSION,         pMetadata); Not used
     PRINT(CAM_INTF_META_FOCUS_DEPTH_INFO,             pMetadata);
+    PRINT(TINNO2,                                     pMetadata);
     PRINT(CAM_INTF_PARM_HAL_BRACKETING_HDR,           pMetadata);
 
     dlclose(handle);
