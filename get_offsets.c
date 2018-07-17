@@ -66,7 +66,6 @@ int main() {
     /* INCLUDE() macros from metadata_data_t go after this */
 
     /* common between HAL1 and HAL3 */
-    PRINT(TINNO1,                                     pMetadata);
     PRINT(CAM_INTF_META_HISTOGRAM,                    pMetadata);
     PRINT(CAM_INTF_META_FACE_DETECTION,               pMetadata);
     PRINT(CAM_INTF_META_FACE_RECOG,                   pMetadata);
@@ -301,7 +300,7 @@ int main() {
     // PRINT(CAM_INTF_PARM_JPEG_ENCODE_CROP,             pMetadata); Not used
     // PRINT(CAM_INTF_PARM_JPEG_SCALE_DIMENSION,         pMetadata); Not used
     PRINT(CAM_INTF_META_FOCUS_DEPTH_INFO,             pMetadata);
-    PRINT(TINNO2,                                     pMetadata);
+    PRINT(TINNO1,                                     pMetadata);
     PRINT(CAM_INTF_PARM_HAL_BRACKETING_HDR,           pMetadata);
 
     dlclose(handle);
