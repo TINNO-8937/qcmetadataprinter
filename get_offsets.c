@@ -133,7 +133,7 @@ int main() {
     PRINT(CAM_INTF_META_LENS_STATE,                   pMetadata);
     PRINT(CAM_INTF_META_LENS_OPT_STAB_MODE,           pMetadata);
     PRINT(CAM_INTF_META_VIDEO_STAB_MODE,              pMetadata);
-    // PRINT(CAM_INTF_META_LENS_FOCUS_STATE,             pMetadata);
+    //PRINT(CAM_INTF_META_LENS_FOCUS_STATE,             pMetadata);
     PRINT(CAM_INTF_META_NOISE_REDUCTION_MODE,         pMetadata);
     PRINT(CAM_INTF_META_NOISE_REDUCTION_STRENGTH,     pMetadata);
     PRINT(CAM_INTF_META_SCALER_CROP_REGION,           pMetadata);
@@ -161,7 +161,7 @@ int main() {
     PRINT(CAM_INTF_META_EXIF_DEBUG_BESTATS,           pMetadata);
     PRINT(CAM_INTF_META_EXIF_DEBUG_BHIST,             pMetadata);
     PRINT(CAM_INTF_META_EXIF_DEBUG_3A_TUNING,         pMetadata);
-    // PRINT(CAM_INTF_META_ASD_SCENE_CAPTURE_TYPE,       pMetadata);
+    //PRINT(CAM_INTF_META_ASD_SCENE_CAPTURE_TYPE,       pMetadata);
     PRINT(CAM_INTF_PARM_EFFECT,                       pMetadata);
     PRINT(CAM_INTF_META_PRIVATE_DATA,                 pMetadata);
 
@@ -300,8 +300,6 @@ int main() {
     PRINT(CAM_INTF_PARM_JPEG_ENCODE_CROP,             pMetadata);
     PRINT(CAM_INTF_PARM_JPEG_SCALE_DIMENSION,         pMetadata);
     PRINT(CAM_INTF_META_FOCUS_DEPTH_INFO,             pMetadata);
-    PRINT(TINNO1,                                     pMetadata);
-    PRINT(TINNO2,                                     pMetadata);
     PRINT(CAM_INTF_PARM_HAL_BRACKETING_HDR,           pMetadata);
 
     dlclose(handle);
