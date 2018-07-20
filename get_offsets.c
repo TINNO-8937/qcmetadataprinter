@@ -303,7 +303,6 @@ int main() {
     PRINT(TINNO1,                                     pMetadata);
     PRINT(TINNO2,                                     pMetadata);
     PRINT(CAM_INTF_PARM_HAL_BRACKETING_HDR,           pMetadata);
-    PRINT(TINNO3,                                     pMetadata);
 
     dlclose(handle);
     return 0;
